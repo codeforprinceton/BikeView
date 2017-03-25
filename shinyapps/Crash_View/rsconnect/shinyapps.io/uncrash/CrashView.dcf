@@ -1,0 +1,9 @@
+name: CrashView
+account: uncrash
+server: shinyapps.io
+appId: 163550
+bundleId: 762532
+url: https://uncrash.shinyapps.io/CrashView/
+when: 1490407685.49727
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,586 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='nvd3/css/nv.d3.css'>
+    <link rel='stylesheet' href='nvd3/css/rNVD3.css'>
+
+    <script src='nvd3/js/jquery-1.8.2.min.js' type='text/javascript'></script>
+    <script src='nvd3/js/d3.v3.min.js' type='text/javascript'></script>
+    <script src='nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='nvd3/js/fisheye.js' type='text/javascript'></script>
+
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }
+    </style>
+
+  </head>
+  <body >
+
+    <div id = 'chart198e45be5' class = 'rChart nvd3'></div>
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart198e45be5()
+    });
+    function drawchart198e45be5(){
+      var opts = {
+ "dom": "chart198e45be5",
+"width":    800,
+"height":    400,
+"x": "year",
+"y": "nn",
+"group": "Crash.Day.Of.Week",
+"type": "multiBarChart",
+"groupSpacing":      5,
+"id": "chart198e45be5"
+},
+        data = [
+ {
+ "Crash.Day.Of.Week": "F ",
+"nn": 112,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 111,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 126,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 129,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 89,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 72,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 86,
+"year": 2001
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 102,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 72,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 86,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 95,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 91,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 92,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 71,
+"year": 2002
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 109,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 105,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 102,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 124,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 106,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 92,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 113,
+"year": 2003
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 127,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 88,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 138,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 122,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 104,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 65,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 94,
+"year": 2004
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 132,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 84,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 135,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 110,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 115,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 78,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 97,
+"year": 2005
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 124,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 99,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 132,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 115,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 98,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 90,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 87,
+"year": 2006
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 113,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 91,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 115,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 133,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 75,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 86,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 97,
+"year": 2007
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 97,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 78,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 81,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 121,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 95,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 68,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 73,
+"year": 2008
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 103,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 73,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 70,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 110,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 80,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 73,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 68,
+"year": 2009
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 103,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 72,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 102,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 90,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 73,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 66,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 61,
+"year": 2010
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 77,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 86,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 94,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 118,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 81,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 91,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 62,
+"year": 2011
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 86,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 78,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 83,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 96,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 67,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 78,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 87,
+"year": 2012
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 89,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 69,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 80,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 93,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 71,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 68,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 68,
+"year": 2013
+},
+{
+ "Crash.Day.Of.Week": "F ",
+"nn": 71,
+"year": 2014
+},
+{
+ "Crash.Day.Of.Week": "M ",
+"nn": 67,
+"year": 2014
+},
+{
+ "Crash.Day.Of.Week": "S ",
+"nn": 86,
+"year": 2014
+},
+{
+ "Crash.Day.Of.Week": "SA",
+"nn": 102,
+"year": 2014
+},
+{
+ "Crash.Day.Of.Week": "TH",
+"nn": 82,
+"year": 2014
+},
+{
+ "Crash.Day.Of.Week": "TU",
+"nn": 73,
+"year": 2014
+},
+{
+ "Crash.Day.Of.Week": "W ",
+"nn": 69,
+"year": 2014
+}
+]
+
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+
+
+
+
+
+
+
+
+
+
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+
+    <script></script>
+  </body>
+</html>

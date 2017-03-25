@@ -1,0 +1,6 @@
+install.packages("devtools")
+install.packages("Rcpp")
+library(devtools)
+library(Rcpp)
+install_github('ramnathv/rCharts')
+library(rCharts)

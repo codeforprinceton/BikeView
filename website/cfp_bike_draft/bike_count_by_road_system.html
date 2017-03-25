@@ -1,0 +1,403 @@
+
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='nvd3/css/nv.d3.css'>
+    <link rel='stylesheet' href='nvd3/css/rNVD3.css'>
+
+    <script src='nvd3/js/jquery-1.8.2.min.js' type='text/javascript'></script>
+    <script src='nvd3/js/d3.v3.min.js' type='text/javascript'></script>
+    <script src='nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='nvd3/js/fisheye.js' type='text/javascript'></script>
+
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }
+    </style>
+
+  </head>
+  <body >
+
+    <div id = 'chart3d4457333ceb' class = 'rChart nvd3'>
+  </div>
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart3d4457333ceb()
+    });
+    function drawchart3d4457333ceb(){
+      var opts = {
+ "dom": "chart3d4457333ceb",
+"width":    800,
+"height":    400,
+"x": "CRASH_YEAR",
+"y": "n",
+"group": "ROAD_SYSTEM",
+"type": "multiBarChart",
+"groupSpacing":      5,
+"id": "chart3d4457333ceb"
+},
+        data = [
+ {
+ "CRASH_YEAR": 2003,
+"ROAD_SYSTEM": "County",
+"n": 16
+},
+{
+ "CRASH_YEAR": 2003,
+"ROAD_SYSTEM": "Municipal",
+"n": 62
+},
+{
+ "CRASH_YEAR": 2003,
+"ROAD_SYSTEM": "Private Property",
+"n": 8
+},
+{
+ "CRASH_YEAR": 2003,
+"ROAD_SYSTEM": "State Highway",
+"n": 14
+},
+{
+ "CRASH_YEAR": 2003,
+"ROAD_SYSTEM": "State Park or Institution",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2004,
+"ROAD_SYSTEM": "County",
+"n": 29
+},
+{
+ "CRASH_YEAR": 2004,
+"ROAD_SYSTEM": "Municipal",
+"n": 66
+},
+{
+ "CRASH_YEAR": 2004,
+"ROAD_SYSTEM": "Private Property",
+"n": 4
+},
+{
+ "CRASH_YEAR": 2004,
+"ROAD_SYSTEM": "State Highway",
+"n": 7
+},
+{
+ "CRASH_YEAR": 2004,
+"ROAD_SYSTEM": "State Park or Institution",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2005,
+"ROAD_SYSTEM": "County",
+"n": 25
+},
+{
+ "CRASH_YEAR": 2005,
+"ROAD_SYSTEM": "Municipal",
+"n": 57
+},
+{
+ "CRASH_YEAR": 2005,
+"ROAD_SYSTEM": "Private Property",
+"n": 5
+},
+{
+ "CRASH_YEAR": 2005,
+"ROAD_SYSTEM": "State Highway",
+"n": 13
+},
+{
+ "CRASH_YEAR": 2005,
+"ROAD_SYSTEM": "State Park or Institution",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2006,
+"ROAD_SYSTEM": "County",
+"n": 19
+},
+{
+ "CRASH_YEAR": 2006,
+"ROAD_SYSTEM": "Municipal",
+"n": 55
+},
+{
+ "CRASH_YEAR": 2006,
+"ROAD_SYSTEM": "Private Property",
+"n": 10
+},
+{
+ "CRASH_YEAR": 2006,
+"ROAD_SYSTEM": "State Highway",
+"n": 16
+},
+{
+ "CRASH_YEAR": 2006,
+"ROAD_SYSTEM": "State/Interstate Authority",
+"n": 2
+},
+{
+ "CRASH_YEAR": 2007,
+"ROAD_SYSTEM": "County",
+"n": 32
+},
+{
+ "CRASH_YEAR": 2007,
+"ROAD_SYSTEM": "Municipal",
+"n": 62
+},
+{
+ "CRASH_YEAR": 2007,
+"ROAD_SYSTEM": "Private Property",
+"n": 6
+},
+{
+ "CRASH_YEAR": 2007,
+"ROAD_SYSTEM": "State Highway",
+"n": 20
+},
+{
+ "CRASH_YEAR": 2008,
+"ROAD_SYSTEM": "County",
+"n": 20
+},
+{
+ "CRASH_YEAR": 2008,
+"ROAD_SYSTEM": "Mun Auth",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2008,
+"ROAD_SYSTEM": "Municipal",
+"n": 56
+},
+{
+ "CRASH_YEAR": 2008,
+"ROAD_SYSTEM": "Private Property",
+"n": 5
+},
+{
+ "CRASH_YEAR": 2008,
+"ROAD_SYSTEM": "State Highway",
+"n": 14
+},
+{
+ "CRASH_YEAR": 2009,
+"ROAD_SYSTEM": "County",
+"n": 26
+},
+{
+ "CRASH_YEAR": 2009,
+"ROAD_SYSTEM": "Municipal",
+"n": 54
+},
+{
+ "CRASH_YEAR": 2009,
+"ROAD_SYSTEM": "Private Property",
+"n": 5
+},
+{
+ "CRASH_YEAR": 2009,
+"ROAD_SYSTEM": "State Highway",
+"n": 17
+},
+{
+ "CRASH_YEAR": 2009,
+"ROAD_SYSTEM": "State Park or Institution",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2009,
+"ROAD_SYSTEM": "State/Interstate Authority",
+"n": 2
+},
+{
+ "CRASH_YEAR": 2010,
+"ROAD_SYSTEM": "County",
+"n": 19
+},
+{
+ "CRASH_YEAR": 2010,
+"ROAD_SYSTEM": "Municipal",
+"n": 57
+},
+{
+ "CRASH_YEAR": 2010,
+"ROAD_SYSTEM": "Private Property",
+"n": 9
+},
+{
+ "CRASH_YEAR": 2010,
+"ROAD_SYSTEM": "State Highway",
+"n": 21
+},
+{
+ "CRASH_YEAR": 2011,
+"ROAD_SYSTEM": "County",
+"n": 29
+},
+{
+ "CRASH_YEAR": 2011,
+"ROAD_SYSTEM": "Municipal",
+"n": 40
+},
+{
+ "CRASH_YEAR": 2011,
+"ROAD_SYSTEM": "Private Property",
+"n": 6
+},
+{
+ "CRASH_YEAR": 2011,
+"ROAD_SYSTEM": "State Highway",
+"n": 14
+},
+{
+ "CRASH_YEAR": 2012,
+"ROAD_SYSTEM": "County",
+"n": 17
+},
+{
+ "CRASH_YEAR": 2012,
+"ROAD_SYSTEM": "Municipal",
+"n": 53
+},
+{
+ "CRASH_YEAR": 2012,
+"ROAD_SYSTEM": "Private Property",
+"n": 7
+},
+{
+ "CRASH_YEAR": 2012,
+"ROAD_SYSTEM": "State Highway",
+"n": 16
+},
+{
+ "CRASH_YEAR": 2013,
+"ROAD_SYSTEM": "County",
+"n": 25
+},
+{
+ "CRASH_YEAR": 2013,
+"ROAD_SYSTEM": "Mun Auth",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2013,
+"ROAD_SYSTEM": "Municipal",
+"n": 44
+},
+{
+ "CRASH_YEAR": 2013,
+"ROAD_SYSTEM": "Private Property",
+"n": 9
+},
+{
+ "CRASH_YEAR": 2013,
+"ROAD_SYSTEM": "State Highway",
+"n": 12
+},
+{
+ "CRASH_YEAR": 2013,
+"ROAD_SYSTEM": "State/Interstate Authority",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2014,
+"ROAD_SYSTEM": "County",
+"n": 15
+},
+{
+ "CRASH_YEAR": 2014,
+"ROAD_SYSTEM": "Municipal",
+"n": 15
+},
+{
+ "CRASH_YEAR": 2014,
+"ROAD_SYSTEM": "Private Property",
+"n": 4
+},
+{
+ "CRASH_YEAR": 2014,
+"ROAD_SYSTEM": "State Highway",
+"n": 5
+},
+{
+ "CRASH_YEAR": 2014,
+"ROAD_SYSTEM": "State Park or Institution",
+"n": 1
+},
+{
+ "CRASH_YEAR": 2015,
+"ROAD_SYSTEM": "County",
+"n": 7
+},
+{
+ "CRASH_YEAR": 2015,
+"ROAD_SYSTEM": "Municipal",
+"n": 21
+},
+{
+ "CRASH_YEAR": 2015,
+"ROAD_SYSTEM": "State Highway",
+"n": 6
+}
+]
+
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+
+
+
+
+
+
+
+
+
+
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+
+    <script></script>
+  </body>
+</html>

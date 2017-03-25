@@ -1,0 +1,56 @@
+"","V1","V2","V3","V4","V5","V6","V7"
+"                         Case.Number","2001026901-05080               :    19  ","200112252952-01                :    15  ","20010802A31001340A             :    11  ","2001131901-4085                :    11  ","2001023301-022802              :    10  ","20011225C2191-01               :    10  ","(Other)                        :590813  "
+"Vehicle.Number","Min.   : 1.000  ","1st Qu.: 1.000  ","Median : 1.000  ","Mean   : 1.523  ","3rd Qu.: 2.000  ","Max.   :44.000  ",NA
+"                   Driver.City","                         : 98232  ","NEWARK                   : 13654  ","JERSEY CITY              :  9995  ","PATERSON                 :  9371  ","ELIZABETH                :  7873  ","TRENTON                  :  6825  ","(Other)                  :444939  "
+" Driver.State","NJ     :427995  ","       :104083  ","NY     : 21723  ","PA     : 16274  ","FL     :  3473  ","VA     :  2111  ","(Other): 15230  "
+"Driver.Zip.Code","       :116156  ","07111  :  3993  ","07047  :  3554  ","08753  :  3528  ","07087  :  3494  ","07055  :  3342  ","(Other):456822  "
+"Driver.License.State","NJ     :421363  ","       :109362  ","NY     : 21997  ","PA     : 16188  ","FL     :  3652  ","VA     :  2204  ","(Other): 16123  "
+"     Driver.DOB","          :107958  ","06/07/1982:    71  ","07/20/1982:    67  ","01/01/1955:    66  ","01/13/1983:    66  ","12/01/1983:    66  ","(Other)   :482595  "
+"Driver.Sex"," :103707  ","F:190739  ","M:296443  ",NA,NA,NA,NA
+"Alcohol.Test.Given"," :207126  ","N:375872  ","R:   907  ","Y:  6984  ",NA,NA,NA
+"Alcohol.Test.Type","  :585633  ","BL:  1905  ","BR:  3293  ","UR:    58  ",NA,NA,NA
+"Alcohol.Test.Results","Min.   :0.0  ","1st Qu.:0.1  ","Median :0.2  ","Mean   :0.1  ","3rd Qu.:0.2  ","Max.   :1.0  ","NA's   :587196  "
+"                           Charge","                              :384516  ","NONE                          : 77782  ","?                             :  7236  ","NONE AT THIS TIME             :  2472  ","NONE ISSUED                   :  1618  ","NONE ?                        :  1230  ","(Other)                       :116035  "
+"Driver.Physical.Status","Min.   : 0.00  ","1st Qu.: 1.00  ","Median : 1.00  ","Mean   : 1.98  ","3rd Qu.: 1.00  ","Max.   :99.00  ","NA's   :49613  "
+"      County.Name","ESSEX       : 69308  ","BERGEN      : 68153  ","MIDDLESEX   : 59294  ","HUDSON      : 48526  ","UNION       : 42510  ","PASSAIC     : 39686  ","(Other)     :263412  "
+"               Municipality.Name","NEWARK CITY             : 31940  ","JERSEY CITY             : 17525  ","PATERSON CITY           : 13267  ","ELIZABETH CITY          : 10709  ","WOODBRIDGE TWP          :  9137  ","TRENTON CITY            :  8599  ","(Other)                 :499712  "
+"     Crash.Date","02/22/2001:  5344  ","02/05/2001:  3827  ","01/05/2001:  3656  ","12/14/2001:  2893  ","11/29/2001:  2650  ","09/20/2001:  2549  ","(Other)   :569970  "
+"Crash.Day.Of.Week","F :101179  ","M : 89106  ","S : 62207  ","SA: 79522  ","TH: 89578  ","TU: 85909  ","W : 83388  "
+" Crash.Time","Length:590889     ","Class :character  ","Mode  :character  ",NA,NA,NA,NA
+"Police.Dept.Code","1      :407047  ","01     : 60796  ","2      : 57061  ","       : 35516  ","**     : 17728  ","02     :  4746  ","(Other):  7995  "
+"                Police.Department","STATE POLICE             : 60823  ","NEWARK                   : 23789  ","JERSEY CITY              : 15533  ","PATERSON                 : 11654  ","ELIZABETH                :  9202  ","CLIFTON                  :  7330  ","(Other)                  :462558  "
+"        Police.Station","               :205449  ","HQ             : 17308  ","PATROL         : 16582  ","MUNICIPAL      :  8012  ","NEWARK         :  7665  ","BLOOMFIELD     :  6895  ","(Other)        :328978  "
+" Total.Killed","Min.   :0.000000  ","1st Qu.:0.000000  ","Median :0.000000  ","Mean   :0.001978  ","3rd Qu.:0.000000  ","Max.   :3.000000  ",NA
+"Total.Injured","Min.   : 0.0000  ","1st Qu.: 0.0000  ","Median : 0.0000  ","Mean   : 0.3931  ","3rd Qu.: 1.0000  ","Max.   :44.0000  ",NA
+"Pedestrians.Killed","Min.   :0.0000000  ","1st Qu.:0.0000000  ","Median :0.0000000  ","Mean   :0.0002386  ","3rd Qu.:0.0000000  ","Max.   :1.0000000  ",NA
+"Pedestrians.Injured","Min.   :0.00000  ","1st Qu.:0.00000  ","Median :0.00000  ","Mean   :0.01087  ","3rd Qu.:0.00000  ","Max.   :4.00000  ",NA
+"Severity","F:  1142  ","I:154865  ","P:434882  ",NA,NA,NA,NA
+"Intersection","B:397404  ","I:192731  ","R:   754  ",NA,NA,NA,NA
+"Alcohol.Involved","N:574473  ","Y: 16416  ",NA,NA,NA,NA,NA
+"HazMat.Involved","N:590538  ","Y:   351  ",NA,NA,NA,NA,NA
+"Crash.Type.Code","Min.   : 1.000  ","1st Qu.: 1.000  ","Median : 3.000  ","Mean   : 9.943  ","3rd Qu.: 6.000  ","Max.   :99.000  ",NA
+"Total.Vehicles.Involved","Min.   : 1.000  ","1st Qu.: 2.000  ","Median : 2.000  ","Mean   : 2.039  ","3rd Qu.: 2.000  ","Max.   :19.000  ",NA
+"                                           Crash.Location","RT 1                                              : 13661  ","RT 444                                            : 13256  ","RT 95                                             :  9682  ","RT 9                                              :  7665  ","RT 46                                             :  6213  ","RT 80                                             :  6074  ","(Other)                                           :534338  "
+"    Route","Min.   :   0.0  ","1st Qu.:  36.0  ","Median : 206.0  ","Mean   : 310.2  ","3rd Qu.: 571.0  ","Max.   :9630.0  ","NA's   :247504  "
+"   MilePost","Min.   :  0.0  ","1st Qu.:  3.3  ","Median : 14.1  ","Mean   : 28.7  ","3rd Qu.: 42.1  ","Max.   :999.4  ","NA's   :330941  "
+" Road.System","Min.   : 0.000  ","1st Qu.: 2.000  ","Median : 5.000  ","Mean   : 5.185  ","3rd Qu.: 7.000  ","Max.   :10.000  ","NA's   :411  "
+"Road.Character","Min.   :0.000  ","1st Qu.:1.000  ","Median :1.000  ","Mean   :1.492  ","3rd Qu.:1.000  ","Max.   :6.000  ","NA's   :5222  "
+"Road.Surface.Type","Min.   : 0.000  ","1st Qu.: 2.000  ","Median : 2.000  ","Mean   : 2.068  ","3rd Qu.: 2.000  ","Max.   :99.000  ","NA's   :3725  "
+"Surface.Condition","Min.   : 0.00  ","1st Qu.: 1.00  ","Median : 1.00  ","Mean   : 1.37  ","3rd Qu.: 1.00  ","Max.   :99.00  ","NA's   :4066  "
+"Light.Condition","Min.   :0.000  ","1st Qu.:1.000  ","Median :1.000  ","Mean   :2.222  ","3rd Qu.:3.000  ","Max.   :6.000  ","NA's   :7183  "
+"Environmental.Condition","Min.   : 0.000  ","1st Qu.: 1.000  ","Median : 1.000  ","Mean   : 1.449  ","3rd Qu.: 1.000  ","Max.   :99.000  ","NA's   :5804  "
+"Road.Divided.By","Min.   : 0.000  ","1st Qu.: 5.000  ","Median : 5.000  ","Mean   : 6.719  ","3rd Qu.: 5.000  ","Max.   :99.000  ","NA's   :17714  "
+"Temporary.Traffic.Control.Zone","Min.   :0.000  ","1st Qu.:1.000  ","Median :1.000  ","Mean   :1.039  ","3rd Qu.:1.000  ","Max.   :4.000  ","NA's   :13072  "
+"Distance.To.Cross.Street","Min.   : -55.0  ","1st Qu.:  25.0  ","Median :  75.0  ","Mean   : 155.2  ","3rd Qu.: 200.0  ","Max.   :9000.0  ","NA's   :389849  "
+"Unit.Of.Measurement","  :199860  ","AT:192730  ","FE:181181  ","MI: 17118  ",NA,NA,NA
+"Directn.From.Cross.Street"," :377781  ","E: 49395  ","N: 55952  ","S: 57357  ","W: 50404  ",NA,NA
+"                          Cross.Street.Name","                                   :188874  ","RT 1                               :  1887  ","RT 46                              :  1415  ","?                                  :  1304  ","MAIN STREET                        :  1278  ","RT 35                              :  1236  ","(Other)                            :394895  "
+"Posted.Speed.Cross.Street","Mode:logical  ","NA's:590889   ",NA,NA,NA,NA,NA
+"Latitude","Mode:logical  ","NA's:590889   ",NA,NA,NA,NA,NA
+"Longitude","Mode:logical  ","NA's:590889   ",NA,NA,NA,NA,NA
+"Cell.Phone.In.Use.Flag","N:590828  ","Y:    61  ",NA,NA,NA,NA,NA
+"                                                                     Other.Property.Damage","                                                                                :315071  ","NONE                                                                            :206527  ","?                                                                               : 12778  ","SEE ATTACHED                                                                    : 10420  ","NO                                                                              :  1456  ","(NONE)                                                                          :   763  ","(Other)                                                                         : 43874  "
+"Reporting.Badge.No","*****  : 17560  ","       :  7385  ","29     :  2138  ","139    :  2104  ","10     :  2103  ","120    :  2030  ","(Other):557569  "
+"   Fatality","Min.   :0.000000  ","1st Qu.:0.000000  ","Median :0.000000  ","Mean   :0.001794  ","3rd Qu.:0.000000  ","Max.   :1.000000  ",NA
+"Driver.Physical.Factor","1      :483388  ","0      : 38192  ","2      :  9362  ","99     :  5394  ","8      :  1475  ","(Other):  3465  ","NA's   : 49613  "
+"Surface.Condition.type","Length:590889     ","Class :character  ","Mode  :character  ",NA,NA,NA,NA
